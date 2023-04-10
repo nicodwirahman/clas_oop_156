@@ -38,4 +38,9 @@ int main()
 {
 	Mahasiswa mhs;
 	Matakuliah mk;
+
+	cout << "masukan Nim Mahasiswa=";
+	cin >> mhs.nim;
+	cout << "masukan Nama Mahasiswa=";
+	cin >> mhs.nama;
 }
