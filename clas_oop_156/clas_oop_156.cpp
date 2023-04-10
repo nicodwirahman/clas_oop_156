@@ -4,7 +4,7 @@ using namespace std;
 class Mahasiswa {
 public:
 	int nim;
-	string nama
+	string nama;
 		void tampil() {
 		cout << "NIM=" << nim;
 		cout << "\nNama" << nama;
@@ -24,7 +24,7 @@ public:
 		cout << "masukan kode MK=";
 		cin >> kode;
 		cout << "masukan nama MK";
-		CIN >> namaMK;
+		cin >> namaMK;
 	}
 
 	void tampilMK() {
